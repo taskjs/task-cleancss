@@ -1,0 +1,34 @@
+{
+  "name": "task-cleancss",
+  "version": "0.1.0",
+  "main": "lib/cleancss.js",
+  "description": "Minify CSS files with CleanCSS.",
+  "homepage": "https://github.com/taskjs/task-cleancss",
+  "bugs": "https://github.com/taskjs/task-cleancss/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-cleancss"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "cleancss",
+    "minify"
+  ],
+  "dependencies": {
+    "execution": "^0.1.1",
+    "clean-css": "^2.1.8",
+    "record": "^0.2.0"
+  },
+  "scripts": {
+    "test": "node test/cleancss_test"
+  }
+}

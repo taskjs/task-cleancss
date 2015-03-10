@@ -1,6 +1,6 @@
 {
   "name": "task-cleancss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/cleancss.js",
   "description": "Minify CSS files with CleanCSS.",
   "homepage": "https://github.com/taskjs/task-cleancss",
